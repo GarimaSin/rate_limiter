@@ -1,0 +1,12 @@
+{
+  "rules": [
+    {
+      "id": "per-ip-global",
+      "key_template": "rl:ip:{ip}:route:{route}",
+      "rate_per_sec": 100.0,
+      "burst": 200,
+      "scope": "per-ip",
+      "enabled": true
+    }
+  ]
+}
